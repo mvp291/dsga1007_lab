@@ -1,0 +1,41 @@
+Locations for programs:
+/bin/cat
+/bin/grep
+/opt/rh/anaconda/root/bin/python
+/usr/bin/firefox
+Programs running as root:
+15757 root      20   0  103m 1596  740 R 84.3  0.0   0:00.59 netstat 
+64220 root      20   0  401m  92m  17m R 40.0  0.0  26124:06 sssd_be 
+  856 root      39  19     0    0    0 S 10.0  0.0  56361:25 kipmi0 
+ 4526 root      20   0     0    0    0 S  2.9  0.0 555:12.10 kondemand/58
+15757 root      20   0  104m 2252  788 R 80.1  0.0   0:03.14 netstat 
+Programs running as jt2276:
+ 5779 jt2276    20   0 30280 4512 1368 R  5.0  0.0   0:00.56 top 
+Users currently logged in:
+gsm317   pts/8        2016-10-20 17:31 (192.168.72.191)
+xz1809   pts/15       2016-10-20 17:32 (192.168.72.191)
+aouchef  pts/50       2016-10-19 15:06 (192.168.72.191)
+lmf445   pts/81       2016-10-20 17:32 (192.168.72.191)
+ss4977   pts/84       2016-10-20 17:39 (192.168.72.191)
+se1296   pts/86       2016-10-20 17:44 (128.122.72.217)
+jt2276   pts/87       2016-10-20 17:49 (192.168.72.191)
+rla319   pts/89       2016-10-19 15:43 (192.168.72.191)
+gsm317   pts/98       2016-10-20 18:04 (192.168.72.191)
+gtp232   pts/99       2016-10-20 11:06 (192.168.72.191)
+tw1574   pts/104      2016-10-20 18:06 (192.168.72.191)
+jz2575   pts/105      2016-10-20 18:12 (192.168.72.191)
+grh255   pts/109      2016-10-19 11:51 (192.168.72.191)
+mohitsharma44 pts/140      2016-10-20 13:56 (192.168.72.191)
+mohitsharma44 pts/149      2016-10-20 13:59 (192.168.72.191)
+Current hostname for server:
+compute.cusp.nyu.edu
+Commands used:
+which cat
+which grep
+which python
+which firefox
+which eclipse
+top | grep root
+top | grep jt2276
+who
+(hostname)
