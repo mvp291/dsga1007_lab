@@ -1,0 +1,41 @@
+How many files are there?
+$ ls -l | wc -l  # 20 files in local directory, including zip file
+
+How many .csv files? How many .py files?
+$ ls -l *.csv | wc -l # 10 .csv files in local directory
+$ ls -l *.py | wc -l  #  6 .py files in local directory
+
+How many words and lines are in each csv file?
+$ wc -wl *.csv
+
+## Output from above question
+# 1018    1018 mailing_results_0.csv
+# 1018    1018 mailing_results_1.csv
+# 1018    1018 mailing_results_2.csv
+# 1017    1017 mailing_results_3.csv
+# 1019    1023 mailing_results_4.csv
+# 1017    1017 mailing_results_5.csv
+# 1017    1017 mailing_results_6.csv
+# 1017    1017 mailing_results_7.csv
+# 1017    1017 mailing_results_8.csv
+# 1017    1017 mailing_results_9.csv
+# 10175   10179 total
+##
+
+Have a look at file client.py.
+$ cat client.py
+
+In this file a function receive() is defined. Find where that function is mentioned in .py files.
+  i. Show only files containing matches
+     $ grep -H "def receive():" *.py
+ ii. Show occurrences with line number
+     $ grep -Hn "def receive():" *.py
+
+Look at a .csv file to see what it looks like.
+  i. Print the first 3 lines of each csv file.
+     $ head -n 3 *.csv
+ ii. Print the last couple of lines of each csv file.
+     $ tail -n 2 *.csv # you *did* say couple
+
+Do some of the .csv files contain the words foo or bar (in any capitalization)?
+$ grep -ie "foo\|bar" *.csv # only mailing_results_4
