@@ -1,0 +1,33 @@
+- Location of the programs:
+        cat: /bin/cat
+        grep: /usr/bin/grep
+        python: /Users/abhishekkadian/anaconda/bin/python
+        firefox: //Applications/Firefox.app
+        eclipse: //Applications/Eclipse.app
+
+- Many programs are running, below are some examples of programs which are running as root, ak6179(my netid)
+root     24204  0.1  0.0 128820  4092 ?        SNs  17:51   0:00 sshd: mvp291 [priv]
+mvp291   24800  0.0  0.0 128820  2000 ?        SN   17:51   0:00 sshd: mvp291@pts/6
+mvp291   24801  0.0  0.0 120812  1928 pts/6    SNs+ 17:51   0:00 -bash
+root     24904  0.0  0.0      0     0 ?        S    17:52   0:00 [flush-0:71]
+root     24943  0.0  0.0 100920   568 ?        S    17:54   0:00 sleep 60
+ak6179   24946  0.0  0.0 122704  1252 pts/5    RN+  17:54   0:00 ps aux
+
+- Users connected to the server
+ak6179   pts/5        2016-10-20 17:46 (linax2.cims.nyu.edu)
+mvp291   pts/6        2016-10-20 17:51 (linax2.cims.nyu.edu)
+
+- Commands:
+ssh ak6179@mauler.cims.nyu.edu
+
+which cat
+which grep
+which python
+which Firefox.app
+which Eclipse.app
+
+ps aux
+ps aux | grep root
+ps aux | grep ak6179
+
+who
