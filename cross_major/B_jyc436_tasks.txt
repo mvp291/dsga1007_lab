@@ -168,4 +168,18 @@ Contains “bar”: ./mailing_results_4.csv:Lets go to a BaR
 
 
 
+Commands used to solve questions:
+
+ls -1 | wc -l
+ls -1 | grep ".csv" | wc –l
+ls -1 | grep ".py" | wc -l
+wc -l -w *.csv
+cat < client.py
+grep -l"receive()" ./*.py
+grep -n "receive()" ./*.py
+head -n 3 mailing_results_*.csv
+tail -n 3 mailing_results_*.csv
+grep -i "foo" ./*.csv
+grep -i "bar" ./*.csv
+
 
