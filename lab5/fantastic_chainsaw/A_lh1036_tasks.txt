@@ -1,0 +1,38 @@
+A Tasks
+Leslie Huang
+lh1036
+
+i. Details of team directory
+total 16
+-rw-r--r--  1 lesliehuang  staff  1390 Oct 20 18:06 B_dov205_tasks.txt
+-rw-r--r--  1 lesliehuang  staff  1121 Oct 20 18:00 C_ak6179_tasks.txt
+-rw-r--r--  1 lesliehuang  staff     0 Oct 20 17:38 hello
+
+ii. Commit history for your repository
+
+commit ec377c2fff513501e663536e4997e7ab22297f56
+Author: Danny Vilela <dov205@nyu.edu>
+Date:   Thu Oct 20 18:06:28 2016 -0400
+
+    add task B
+
+commit ace4a7d01ca6c13d84feb39d2a7587243ccebd2d
+Author: darkstar112358 <abhishekkadiyan@gmail.com>
+Date:   Thu Oct 20 18:00:01 2016 -0400
+
+    rename file
+
+commit 5914c1b8e75a2984b98e74c0d80ccf59d6f6d540
+Author: darkstar112358 <abhishekkadiyan@gmail.com>
+Date:   Thu Oct 20 17:58:54 2016 -0400
+
+    add tasks for C
+
+commit 37e5ba92896aa3d44a0b3c57307498a57d2210ff
+Author: leslie-huang <lesliehuang@gmail.com>
+Date:   Thu Oct 20 17:38:35 2016 -0400
+
+    team member A tasks a-d plus hello
+
+iii. ID of the last commit
+ec377c2fff513501e663536e4997e7ab22297f56
