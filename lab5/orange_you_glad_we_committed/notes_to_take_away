@@ -1,0 +1,3 @@
+|: pipe. Pipe is used to feed the output of a command to another command as the input.
+--help: use --help to see the help file.
+	man <cmd>
