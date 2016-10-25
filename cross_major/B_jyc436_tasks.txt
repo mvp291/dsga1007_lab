@@ -1,0 +1,185 @@
+i. 17
+ii. 10; 6
+iii.1018    1018 mailing_results_0.csv
+    1018    1018 mailing_results_1.csv
+    1018    1018 mailing_results_2.csv
+    1017    1017 mailing_results_3.csv
+    1019    1023 mailing_results_4.csv
+    1017    1017 mailing_results_5.csv
+    1017    1017 mailing_results_6.csv
+    1017    1017 mailing_results_7.csv
+    1017    1017 mailing_results_8.csv
+    1017    1017 mailing_results_9.csv
+iv. 
+import socket
+import sys
+import time
+import random
+
+def receive():
+    msg = ''
+    while '<EOM>' not in msg:
+        chunk = s.recv(1024)
+        if not chunk: break
+        if chunk == '':
+            raise RuntimeError("socket connection broken")
+        msg += chunk
+    msg = msg[:-5]
+    return msg
+  
+if __name__ == "__main__":
+    s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    s.connect(('127.0.0.1', int(sys.argv[1])))
+    print receive()
+    s.send(str(sys.argv[2]))
+    print receive()
+    while(1):
+        s.send(str(random.randint(0, 4)))
+        inc = receive()
+        if not inc:
+            break
+        print inc
+ #       time.sleep(1)
+v. 1. 
+./brieAuction.py
+./client.py
+./player.py
+   2. 
+./brieAuction.py:52:def receive():
+./brieAuction.py:80:assert( receive()=='Name?') 
+./brieAuction.py:82:info=[int(v) for v in receive().split(' ')]
+./brieAuction.py:198:    upd=receive()
+./client.py:6:def receive():
+./client.py:20:    print receive()
+./client.py:22:    print receive()
+./client.py:25:        inc = receive()
+./player.py:279:def receive():
+./player.py:308:    assert( receive()=='Name?') 
+./player.py:310:    info=[int(v) for v in receive().split(' ')]
+./player.py:318:        upd=receive()
+
+vi. 1. 
+==> mailing_results_0.csv <==
+"2.0,0.0,1.0,0,0.49,0.51"
+"6.0,0.0,0.0,1,0.65,0.35"
+"20.0,0.0,1.0,0,0.5,0.5"
+
+==> mailing_results_1.csv <==
+"3.0,0.0,0.0,1,0.64,0.36"
+"10.0,1.0,1.0,1,0.46,0.54"
+"14.0,0.0,0.0,1,0.5,0.5"
+
+==> mailing_results_2.csv <==
+"1.0,1.0,1.0,1,0.42,0.58"
+"4.0,0.0,0.0,1,0.67,0.33"
+"26.0,0.0,1.0,0,0.48,0.52"
+
+==> mailing_results_3.csv <==
+"13.0,0.0,0.0,1,0.65,0.35"
+"25.0,0.0,1.0,0,0.46,0.54"
+"44.0,0.0,0.0,1,0.65,0.35"
+
+==> mailing_results_4.csv <==
+"0.0,0.0,0.0,1,0.65,0.35"
+"12.0,0.0,0.0,1,0.61,0.39"
+"24.0,0.0,1.0,0,0.49,0.51"
+
+==> mailing_results_5.csv <==
+"9.0,0.0,0.0,1,0.51,0.49"
+"18.0,0.0,0.0,1,0.53,0.47"
+"22.0,0.0,1.0,0,0.46,0.54"
+
+==> mailing_results_6.csv <==
+"16.0,0.0,0.0,1,0.63,0.37"
+"21.0,0.0,0.0,1,0.5,0.5"
+"34.0,0.0,0.0,1,0.63,0.37"
+
+==> mailing_results_7.csv <==
+"5.0,0.0,1.0,0,0.47,0.53"
+"7.0,0.0,1.0,0,0.36,0.64"
+"8.0,0.0,1.0,0,0.45,0.55"
+
+==> mailing_results_8.csv <==
+"31.0,0.0,0.0,1,0.63,0.37"
+"36.0,0.0,0.0,1,0.5,0.5"
+"40.0,0.0,0.0,1,0.5,0.5"
+
+==> mailing_results_9.csv <==
+"17.0,0.0,1.0,0,0.49,0.51"
+"27.0,0.0,1.0,0,0.42,0.58"
+"32.0,1.0,1.0,1,0.33,0.67"
+
+  2. 
+==> mailing_results_0.csv <==
+"10116.0,1.0,0.0,0,0.57,0.43"
+"10130.0,1.0,1.0,1,0.38,0.62"
+"10141.0,1.0,1.0,1,0.49,0.51"
+
+==> mailing_results_1.csv <==
+"10148.0,1.0,1.0,1,0.37,0.63"
+"10151.0,1.0,1.0,1,0.37,0.63"
+"10159.0,1.0,0.0,0,0.52,0.48"
+
+==> mailing_results_2.csv <==
+"10144.0,1.0,1.0,1,0.48,0.52"
+"10161.0,1.0,1.0,1,0.42,0.58"
+"10164.0,1.0,1.0,1,0.33,0.67"
+
+==> mailing_results_3.csv <==
+"10118.0,1.0,1.0,1,0.5,0.5"
+"10150.0,1.0,1.0,1,0.36,0.64"
+"10158.0,1.0,1.0,1,0.36,0.64"
+
+==> mailing_results_4.csv <==
+"10149.0,1.0,1.0,1,0.37,0.63"
+"10153.0,1.0,1.0,1,0.37,0.63"
+"10156.0,1.0,1.0,1,0.5,0.5"
+
+==> mailing_results_5.csv <==
+"10169.0,1.0,0.0,0,0.65,0.35"
+"10170.0,1.0,0.0,0,0.53,0.47"
+"10172.0,1.0,0.0,0,0.53,0.47"
+
+==> mailing_results_6.csv <==
+"10143.0,1.0,1.0,1,0.36,0.64"
+"10162.0,1.0,0.0,0,0.63,0.37"
+"10166.0,1.0,1.0,1,0.36,0.64"
+
+==> mailing_results_7.csv <==
+"10146.0,1.0,1.0,1,0.36,0.64"
+"10154.0,1.0,1.0,1,0.36,0.64"
+"10157.0,1.0,0.0,0,0.51,0.49"
+
+==> mailing_results_8.csv <==
+"10147.0,1.0,1.0,1,0.47,0.53"
+"10163.0,1.0,1.0,1,0.5,0.5"
+"10167.0,1.0,0.0,0,0.64,0.36"
+
+==> mailing_results_9.csv <==
+"10134.0,1.0,1.0,1,0.42,0.58"
+"10165.0,1.0,1.0,1,0.49,0.51"
+"10171.0,1.0,1.0,1,0.42,0.58"
+
+vii. 
+Contains “foo”: ./mailing_results_4.csv:FoO
+Contains “bar”: ./mailing_results_4.csv:Lets go to a BaR
+
+
+
+
+
+Commands used to solve questions:
+
+ls -1 | wc -l
+ls -1 | grep ".csv" | wc –l
+ls -1 | grep ".py" | wc -l
+wc -l -w *.csv
+cat < client.py
+grep -l"receive()" ./*.py
+grep -n "receive()" ./*.py
+head -n 3 mailing_results_*.csv
+tail -n 3 mailing_results_*.csv
+grep -i "foo" ./*.csv
+grep -i "bar" ./*.csv
+
+
