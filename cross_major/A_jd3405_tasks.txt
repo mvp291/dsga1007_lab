@@ -1,0 +1,52 @@
+total 40
+-rw-r--r--  1 JiamingDong  staff     0 Oct 26 18:02 A_jd3405_tasks.txt
+-rw-r--r--  1 JiamingDong  staff  4380 Oct 26 17:58 B_jyc436_tasks.txt
+-rw-r--r--  1 JiamingDong  staff  5924 Oct 26 17:58 C_da1933_tasks.txt
+-rw-r--r--  1 JiamingDong  staff    25 Oct 20 17:49 README.md
+commit ccfb501b9260ff6087163111c208557fea0e09ee
+Merge: 6ed215c 28582bd
+Author: Jiaming Dong <djmestery@gmail.com>
+Date:   Wed Oct 26 17:57:01 2016 -0400
+
+    Merge pull request #1 from da1933/master
+    
+    C Tasks complete
+
+commit 28582bdc67c4141695f3225da92c416076d018f6
+Merge: c9a3b8d 6ed215c
+Author: da1933 <da1933@nyu.edu>
+Date:   Mon Oct 24 23:31:19 2016 -0400
+
+    Merge branch 'master' of https://github.com/da1933/dsga1007_lab
+
+commit c9a3b8d0f11dad4d7af6dbc50cb870186aa888a4
+Author: da1933 <da1933@nyu.edu>
+Date:   Mon Oct 24 23:29:10 2016 -0400
+
+    C tasks
+
+commit 6ed215cbd15310a64a283384b9fd07768d15425a
+Author: Julie Cachia <jyc436@nyu.edu>
+Date:   Thu Oct 20 19:58:07 2016 -0400
+
+    Added the commands used to solve questions
+
+commit 0b193a32a1e83e88a7894b0d38a61ee18bfc16b9
+Author: Julie Cachia <jyc436@nyu.edu>
+Date:   Thu Oct 20 19:53:45 2016 -0400
+
+    Initial commit
+    Answers to questions
+
+commit 4925de5c96e63bd3c1fe7feb51aaf9d2dda12d4d
+Author: djasmine <djmestery@gmail.com>
+Date:   Thu Oct 20 17:49:58 2016 -0400
+
+    create the team folder
+
+commit 7ea58b205b94e58dfea19cbb11c3a2a56ecfef53
+Author: mvp291 <mvp291@nyu.edu>
+Date:   Wed Oct 19 11:13:11 2016 -0400
+
+    Initial commit
+ccfb501b9260ff6087163111c208557fea0e09ee
