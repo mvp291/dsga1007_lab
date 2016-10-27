@@ -1,1 +1,76 @@
 
+.
+..
+A_sar516_tasks.txt
+B_js5991_tasks.txt
+C_wx433_tasks.txt
+basic_visualizer.py
+brieAuction.py
+client.py
+mailing_results_0.csv
+mailing_results_1.csv
+mailing_results_2.csv
+mailing_results_3.csv
+mailing_results_4.csv
+mailing_results_5.csv
+mailing_results_6.csv
+mailing_results_7.csv
+mailing_results_8.csv
+mailing_results_9.csv
+oldserver.py
+player.py
+server.py
+sometext.txt
+commit 0a77fc7cf103d128f3fb51d7d5560b2b80d4bd0a
+Merge: 0891b7f 731d30d
+Author: sar516 <stormaross@gmail.com>
+Date:   Thu Oct 27 01:05:32 2016 -0400
+
+    Merge pull request #1 from littleorangeplanet/master
+    
+    Hi, I add my part to the pool
+
+commit 731d30d64fe117a61ec302537397cd46d4d72435
+Author: Weiwei Xu <wx433@nyu.edu>
+Date:   Wed Oct 26 23:48:02 2016 -0400
+
+    add file C_wx433_tasks.txt
+
+commit 0891b7f00f61292c59a8d576a541e6b64b0d15b8
+Author: Jingyi Su <js5991@nyu.edu>
+Date:   Mon Oct 24 00:29:39 2016 -0400
+
+    B tasks finished
+
+commit 6262cbef2164a95154dc34967746ee3f9664bb50
+Author: Jingyi Su <js5991@nyu.edu>
+Date:   Mon Oct 24 00:10:42 2016 -0400
+
+    Revert "B tasks"
+    
+    This reverts commit 58128b765b28f249eeb38d3e23faf82f784f2809.
+
+commit 58128b765b28f249eeb38d3e23faf82f784f2809
+Author: Jingyi Su <js5991@nyu.edu>
+Date:   Mon Oct 24 00:09:05 2016 -0400
+
+    B tasks
+
+commit a85cc5dea490ee30ecd5ff4d8d5dca5feb50e561
+Author: sar516 <stormaross@gmail.com>
+Date:   Thu Oct 20 20:53:02 2016 -0400
+
+    Made the team name directory in folder lab5 anlong with an empty text file that will eventually hold my answers
+
+commit e3847a39d6c9864463d74740b7cf9b05b70cef6d
+Author: MaElena Villalobos <mati@172-17-37-17.DYNAPOOL.NYU.EDU>
+Date:   Thu Oct 20 17:48:02 2016 -0400
+
+    Lab5 folder (sorry guys!)
+
+commit 7ea58b205b94e58dfea19cbb11c3a2a56ecfef53
+Author: mvp291 <mvp291@nyu.edu>
+Date:   Wed Oct 19 11:13:11 2016 -0400
+
+    Initial commit
+commit 0a77fc7cf103d128f3fb51d7d5560b2b80d4bd0a

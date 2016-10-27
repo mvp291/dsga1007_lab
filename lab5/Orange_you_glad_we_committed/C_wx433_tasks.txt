@@ -1,0 +1,448 @@
+i.	What is the location of the following programs: 
+cat:          /bin/cat 
+grep:         /bin/grep
+python:       /usr/bin/python 
+firefox:      /usr/local/bin/firefox 
+eclipse:      /usr/bin/eclipse
+
+
+ii.	What programs are running? What programs are running as root and which as your user?
+
+List of currently running programs (Using "ps -ef"):
+root         1     0  0 Sep29 ?        00:05:07 /sbin/init
+root         2     0  0 Sep29 ?        00:00:06 [kthreadd]
+root         3     2  0 Sep29 ?        00:00:22 [migration/0]
+root         4     2  0 Sep29 ?        00:01:21 [ksoftirqd/0]
+root         5     2  0 Sep29 ?        00:00:00 [stopper/0]
+root         6     2  0 Sep29 ?        00:00:02 [watchdog/0]
+root         7     2  0 Sep29 ?        00:00:37 [migration/1]
+root         8     2  0 Sep29 ?        00:00:00 [stopper/1]
+root         9     2  0 Sep29 ?        00:00:37 [ksoftirqd/1]
+root        10     2  0 Sep29 ?        00:00:03 [watchdog/1]
+root        11     2  0 Sep29 ?        00:00:13 [migration/2]
+root        12     2  0 Sep29 ?        00:00:00 [stopper/2]
+root        13     2  0 Sep29 ?        00:00:04 [ksoftirqd/2]
+root        14     2  0 Sep29 ?        00:00:01 [watchdog/2]
+root        15     2  0 Sep29 ?        00:00:11 [migration/3]
+root        16     2  0 Sep29 ?        00:00:00 [stopper/3]
+root        17     2  0 Sep29 ?        00:00:09 [ksoftirqd/3]
+root        18     2  0 Sep29 ?        00:00:01 [watchdog/3]
+root        19     2  0 Sep29 ?        00:01:25 [events/0]
+root        20     2  0 Sep29 ?        00:11:37 [events/1]
+root        21     2  0 Sep29 ?        00:00:59 [events/2]
+root        22     2  0 Sep29 ?        00:00:57 [events/3]
+root        23     2  0 Sep29 ?        00:00:00 [events/0]
+root        24     2  0 Sep29 ?        00:00:00 [events/1]
+root        25     2  0 Sep29 ?        00:00:00 [events/2]
+root        26     2  0 Sep29 ?        00:00:00 [events/3]
+root        27     2  0 Sep29 ?        00:00:00 [events_long/0]
+root        28     2  0 Sep29 ?        00:00:00 [events_long/1]
+root        29     2  0 Sep29 ?        00:00:00 [events_long/2]
+root        30     2  0 Sep29 ?        00:00:00 [events_long/3]
+root        31     2  0 Sep29 ?        00:00:00 [events_power_ef]
+root        32     2  0 Sep29 ?        00:00:00 [events_power_ef]
+root        33     2  0 Sep29 ?        00:00:00 [events_power_ef]
+root        34     2  0 Sep29 ?        00:00:00 [events_power_ef]
+root        35     2  0 Sep29 ?        00:00:00 [cgroup]
+root        36     2  0 Sep29 ?        00:00:00 [khelper]
+root        37     2  0 Sep29 ?        00:00:00 [netns]
+root        38     2  0 Sep29 ?        00:00:00 [async/mgr]
+root        39     2  0 Sep29 ?        00:00:00 [pm]
+root        40     2  0 Sep29 ?        00:00:03 [sync_supers]
+root        41     2  0 Sep29 ?        00:00:02 [bdi-default]
+root        42     2  0 Sep29 ?        00:00:00 [kintegrityd/0]
+root        43     2  0 Sep29 ?        00:00:00 [kintegrityd/1]
+root        44     2  0 Sep29 ?        00:00:00 [kintegrityd/2]
+root        45     2  0 Sep29 ?        00:00:00 [kintegrityd/3]
+root        46     2  0 Sep29 ?        00:00:21 [kblockd/0]
+root        47     2  0 Sep29 ?        00:00:01 [kblockd/1]
+root        48     2  0 Sep29 ?        00:00:13 [kblockd/2]
+root        49     2  0 Sep29 ?        00:00:00 [kblockd/3]
+root        50     2  0 Sep29 ?        00:00:00 [kacpid]
+root        51     2  0 Sep29 ?        00:00:00 [kacpi_notify]
+root        52     2  0 Sep29 ?        00:00:00 [kacpi_hotplug]
+root        53     2  0 Sep29 ?        00:00:00 [ata_aux]
+root        54     2  0 Sep29 ?        00:00:00 [ata_sff/0]
+root        55     2  0 Sep29 ?        00:00:00 [ata_sff/1]
+root        56     2  0 Sep29 ?        00:00:00 [ata_sff/2]
+root        57     2  0 Sep29 ?        00:00:00 [ata_sff/3]
+root        58     2  0 Sep29 ?        00:00:00 [ksuspend_usbd]
+root        59     2  0 Sep29 ?        00:00:00 [khubd]
+root        60     2  0 Sep29 ?        00:00:00 [kseriod]
+root        61     2  0 Sep29 ?        00:00:00 [md/0]
+root        62     2  0 Sep29 ?        00:00:00 [md/1]
+root        63     2  0 Sep29 ?        00:00:00 [md/2]
+root        64     2  0 Sep29 ?        00:00:00 [md/3]
+root        65     2  0 Sep29 ?        00:00:00 [md_misc/0]
+root        66     2  0 Sep29 ?        00:00:00 [md_misc/1]
+root        67     2  0 Sep29 ?        00:00:00 [md_misc/2]
+root        68     2  0 Sep29 ?        00:00:00 [md_misc/3]
+root        69     2  0 Sep29 ?        00:00:00 [linkwatch]
+root        99     2  0 Sep29 ?        00:00:00 [khungtaskd]
+root       100     2  0 Sep29 ?        00:00:02 [kswapd0]
+root       101     2  0 Sep29 ?        00:00:02 [kswapd1]
+root       102     2  0 Sep29 ?        00:00:00 [ksmd]
+root       103     2  0 Sep29 ?        00:00:12 [khugepaged]
+root       104     2  0 Sep29 ?        00:00:00 [aio/0]
+root       105     2  0 Sep29 ?        00:00:00 [aio/1]
+root       106     2  0 Sep29 ?        00:00:00 [aio/2]
+root       107     2  0 Sep29 ?        00:00:00 [aio/3]
+root       108     2  0 Sep29 ?        00:00:00 [crypto/0]
+root       109     2  0 Sep29 ?        00:00:00 [crypto/1]
+root       110     2  0 Sep29 ?        00:00:00 [crypto/2]
+root       111     2  0 Sep29 ?        00:00:00 [crypto/3]
+root       118     2  0 Sep29 ?        00:00:00 [kthrotld/0]
+root       119     2  0 Sep29 ?        00:00:00 [kthrotld/1]
+root       120     2  0 Sep29 ?        00:00:00 [kthrotld/2]
+root       121     2  0 Sep29 ?        00:00:00 [kthrotld/3]
+root       130     2  0 Sep29 ?        00:00:00 [kpsmoused]
+root       131     2  0 Sep29 ?        00:00:00 [usbhid_resumer]
+root       132     2  0 Sep29 ?        00:00:00 [deferwq]
+root       164     2  0 Sep29 ?        00:00:00 [kdmremove]
+root       165     2  0 Sep29 ?        00:00:00 [kstriped]
+root       316     2  0 Sep29 ?        00:00:00 [scsi_eh_0]
+root       317     2  0 Sep29 ?        00:00:00 [scsi_eh_1]
+root       364     2  0 Sep29 ?        00:00:06 [mpt_poll_0]
+root       365     2  0 Sep29 ?        00:00:00 [mpt/0]
+root       369     2  0 Sep29 ?        00:00:00 [scsi_eh_2]
+root       396     2  0 Sep29 ?        00:00:00 [scsi_eh_3]
+root       397     2  0 Sep29 ?        00:09:03 [usb-storage]
+root       399     2  0 Sep29 ?        00:00:00 [scsi_eh_4]
+root       400     2  0 Sep29 ?        00:03:19 [usb-storage]
+root       477     2  0 Sep29 ?        00:00:30 [md3_raid1]
+root       485     2  0 Sep29 ?        00:03:59 [md1_raid1]
+root       548     2  0 Sep29 ?        00:00:23 [jbd2/md1-8]
+root       549     2  0 Sep29 ?        00:00:00 [ext4-dio-unwrit]
+root       658     1  0 Sep29 ?        00:01:44 /sbin/udevd -d
+root       813     2  0 Sep29 ?        00:00:06 [edac-poller]
+root      1110     2  0 12:28 ?        00:00:00 [flush-9:1]
+root      1218     2  0 Sep29 ?        00:00:01 [md0_raid1]
+root      1256     2  0 Sep29 ?        00:05:11 [md2_raid1]
+root      1332     2  0 Sep29 ?        00:00:00 [jbd2/md0-8]
+root      1333     2  0 Sep29 ?        00:00:00 [ext4-dio-unwrit]
+root      1334     2  0 Sep29 ?        00:00:04 [jbd2/md2-8]
+root      1335     2  0 Sep29 ?        00:00:00 [ext4-dio-unwrit]
+root      1388     2  0 Sep29 ?        00:00:06 [kauditd]
+root      1725     1  0 Sep29 ?        00:00:26 auditd
+root      1727  1725  0 Sep29 ?        00:00:33 /sbin/audispd
+root      1729  1727  0 Sep29 ?        00:00:05 /usr/sbin/sedispatch
+root      1751     1  0 Sep29 ?        00:00:00 /sbin/portreserve
+root      1761     1  0 Sep29 ?        00:00:50 /sbin/rsyslogd -i /var/run/syslogd.pid
+root      1795     1  0 Sep29 ?        00:02:12 irqbalance --pid=/var/run/irqbalance.pi
+rpc       1820     1  0 Sep29 ?        00:00:04 rpcbind
+root      1835     1  0 Sep29 ?        00:00:21 mdadm --monitor --scan -f --pid-file=/v
+root      1849     1  0 Sep29 ?        00:01:45 lldpad -d
+root      1863     2  0 Sep29 ?        00:00:00 [target_completi]
+root      1864     2  0 Sep29 ?        00:00:00 [target_completi]
+root      1865     2  0 Sep29 ?        00:00:00 [target_completi]
+root      1866     2  0 Sep29 ?        00:00:00 [target_completi]
+root      1867     2  0 Sep29 ?        00:00:00 [tmr/0]
+root      1868     2  0 Sep29 ?        00:00:00 [tmr/1]
+root      1869     2  0 Sep29 ?        00:00:00 [tmr/2]
+root      1870     2  0 Sep29 ?        00:00:00 [tmr/3]
+dbus      1897     1  0 Sep29 ?        00:00:14 dbus-daemon --system
+root      1912     1  0 Sep29 ?        00:00:18 NetworkManager --pid-file=/var/run/Netw
+root      1916     1  0 Sep29 ?        00:00:00 /usr/sbin/modem-manager
+avahi     1927     1  0 Sep29 ?        00:00:00 avahi-daemon: running [mauler.local]
+avahi     1928  1927  0 Sep29 ?        00:00:00 avahi-daemon: chroot helper
+root      1972  1912  0 Sep29 ?        00:00:02 /sbin/dhclient -d -4 -sf /usr/libexec/n
+root      1984     1  0 Sep29 ?        00:00:00 /usr/sbin/wpa_supplicant -c /etc/wpa_su
+root      2054     1  0 Sep29 ?        00:06:17 cupsd -C /etc/cups/cupsd.conf
+lp        2055  2054  0 Sep29 ?        00:08:32 cups-polld 172.22.49.12 631 30 631
+root      2091     1  0 Sep29 ?        00:00:00 /usr/sbin/acpid
+68        2104     1  0 Sep29 ?        00:00:32 hald
+root      2105  2104  0 Sep29 ?        00:00:00 hald-runner
+root      2153  2105  0 Sep29 ?        00:00:00 hald-addon-input: Listening on /dev/inp
+root      2164  2105  0 Sep29 ?        00:01:45 hald-addon-storage: polling /dev/sdc (e
+68        2165  2105  0 Sep29 ?        00:00:00 hald-addon-acpi: listening on acpid soc
+root      2166  2105  0 Sep29 ?        00:03:28 hald-addon-storage: polling /dev/sr0 (e
+root      2181     1  0 Sep29 ?        00:09:50 /usr/sbin/sssd -f -D
+root      2182  2181  0 Sep29 ?        00:01:13 /usr/libexec/sssd/sssd_be --domain cims
+root      2183  2181  0 Sep29 ?        00:00:51 /usr/libexec/sssd/sssd_nss --uid 0 --gi
+root      2184  2181  0 Sep29 ?        00:00:31 /usr/libexec/sssd/sssd_pam --uid 0 --gi
+root      2185  2181  0 Sep29 ?        00:00:22 /usr/libexec/sssd/sssd_sudo --uid 0 --g
+root      2186  2181  0 Sep29 ?        00:00:18 /usr/libexec/sssd/sssd_autofs --uid 0 -
+root      2187  2181  0 Sep29 ?        00:00:16 /usr/libexec/sssd/sssd_ssh --uid 0 --gi
+root      2214     1  0 Sep29 ?        00:00:00 pcscd
+root      2232     1  0 Sep29 ?        00:03:28 automount --pid-file /var/run/autofs.pi
+nscd      2264     1  0 Sep29 ?        00:04:38 /usr/sbin/nscd
+root      2284     1  0 Sep29 ?        00:00:00 /usr/sbin/mcelog --daemon
+root      2290     2  0 Sep29 ?        00:00:02 [rpciod/0]
+root      2291     2  0 Sep29 ?        00:00:29 [rpciod/1]
+root      2292     2  0 Sep29 ?        00:00:00 [rpciod/2]
+root      2293     2  0 Sep29 ?        00:00:03 [rpciod/3]
+root      2314     2  0 Sep29 ?        00:00:00 [kslowd000]
+root      2315     2  0 Sep29 ?        00:00:00 [kslowd001]
+root      2316     1  0 Sep29 ?        00:01:22 /usr/sbin/sshd
+root      2322     2  0 Sep29 ?        00:00:04 [nfsiod]
+root      2329     1  0 Sep29 ?        00:00:00 xinetd -stayalive -pidfile /var/run/xin
+ntp       2340     1  0 Sep29 ?        00:00:14 ntpd -u ntp:ntp -p /var/run/ntpd.pid -g
+ganglia   2355     1  1 Sep29 ?        07:19:46 /usr/sbin/gmond
+nagios    2376     1  0 Sep29 ?        00:00:16 /usr/sbin/nrpe -c /etc/nagios/nrpe.cfg
+root      2398     1  0 Sep29 ?        00:00:44 sendmail: accepting connections
+smmsp     2408     1  0 Sep29 ?        00:00:00 sendmail: Queue runner@01:00:00 for /va
+root      2434     1  0 Sep29 ?        00:00:09 abrt-dump-oops -d /var/spool/abrt -rwx
+root      2452     1  0 Sep29 ?        00:00:00 /usr/sbin/gpm -m /dev/input/mice -t exp
+root      2465     1  0 Sep29 ?        00:01:39 /bin/bash /usr/sbin/ksmtuned
+root      2478     1  0 Sep29 ?        00:01:22 crond
+root      2983     1  0 Sep29 ?        00:00:02 /usr/sbin/atd
+root      2996     1  0 Sep29 ?        00:00:00 /usr/bin/python /usr/share/virt-who/vir
+root      3014     1  0 Sep29 ?        00:01:12 libvirtd --daemon
+root      3040     1  0 Sep29 ?        00:00:01 /usr/bin/rhsmcertd
+nobody    3147     1  0 Sep29 ?        00:00:00 /usr/sbin/dnsmasq --strict-order --pid-
+root      3155     1  0 Sep29 ?        00:00:04 /usr/sbin/gdm-binary -nodaemon
+root      3163     1  0 Sep29 tty2     00:00:00 /sbin/mingetty /dev/tty2
+root      3165     1  0 Sep29 tty3     00:00:00 /sbin/mingetty /dev/tty3
+root      3166     1  0 Sep29 ttyS0    00:00:00 /sbin/agetty /dev/ttyS0 9600 vt100-nav
+root      3168     1  0 Sep29 tty4     00:00:00 /sbin/mingetty /dev/tty4
+root      3170     1  0 Sep29 tty5     00:00:00 /sbin/mingetty /dev/tty5
+root      3173     1  0 Sep29 tty6     00:00:00 /sbin/mingetty /dev/tty6
+root      3179   658  0 Sep29 ?        00:01:15 /sbin/udevd -d
+root      3180   658  0 Sep29 ?        00:00:00 /sbin/udevd -d
+root      4831  2316  0 20:30 ?        00:00:00 sshd: wx433 [priv]
+wx433     4833  4831  0 20:30 ?        00:00:00 sshd: wx433@pts/0
+wx433     4834  4833  0 20:30 pts/0    00:00:00 -bash
+lsg322   10943     1  0 Oct04 ?        00:00:00 SCREEN
+lsg322   10944 10943  0 Oct04 pts/4    00:00:00 /bin/bash
+wx433    11802  4834  0 21:53 pts/0    00:00:00 nano C_wx433_tasks.txt
+root     11880  2316  0 21:58 ?        00:00:00 sshd: wx433 [priv]
+wx433    11882 11880  0 21:58 ?        00:00:00 sshd: wx433@pts/1
+wx433    11883 11882  0 21:58 pts/1    00:00:00 -bash root     11981  2478  0 22:00 ?        00:00:00 CROND
+root     11985 11981  0 22:00 ?        00:00:00 /bin/sh -c /local/sbin/check-services >
+root     11986 11985  0 22:00 ?        00:00:00 /bin/bash /local/sbin/check-services
+root     11990 11986  0 22:00 ?        00:00:00 sleep 707
+root     12068  2465  0 22:01 ?        00:00:00 sleep 60
+wx433    12070 11883  0 22:02 pts/1    00:00:00 ps -ef
+rpcuser  16854     1  0 Oct20 ?        00:00:00 rpc.statd root     21339     2  0 Sep30 ?        00:00:00 [lockd]
+
+List of programs running as root "ps -ef|grep root":
+root         1     0  0 Sep29 ?        00:05:07 /sbin/init
+root         2     0  0 Sep29 ?        00:00:06 [kthreadd]
+root         3     2  0 Sep29 ?        00:00:22 [migration/0]
+root         4     2  0 Sep29 ?        00:01:21 [ksoftirqd/0]
+root         5     2  0 Sep29 ?        00:00:00 [stopper/0]
+root         6     2  0 Sep29 ?        00:00:02 [watchdog/0]
+root         7     2  0 Sep29 ?        00:00:37 [migration/1]
+root         8     2  0 Sep29 ?        00:00:00 [stopper/1]
+root         9     2  0 Sep29 ?        00:00:37 [ksoftirqd/1]
+root        10     2  0 Sep29 ?        00:00:03 [watchdog/1]
+root        11     2  0 Sep29 ?        00:00:13 [migration/2]
+root        12     2  0 Sep29 ?        00:00:00 [stopper/2]
+root        13     2  0 Sep29 ?        00:00:04 [ksoftirqd/2]
+root        14     2  0 Sep29 ?        00:00:01 [watchdog/2]
+root        15     2  0 Sep29 ?        00:00:11 [migration/3]
+root        16     2  0 Sep29 ?        00:00:00 [stopper/3]
+root        17     2  0 Sep29 ?        00:00:09 [ksoftirqd/3]
+root        18     2  0 Sep29 ?        00:00:01 [watchdog/3]
+root        19     2  0 Sep29 ?        00:01:25 [events/0]
+root        20     2  0 Sep29 ?        00:11:38 [events/1]
+root        21     2  0 Sep29 ?        00:01:00 [events/2]
+root        22     2  0 Sep29 ?        00:00:57 [events/3]
+root        23     2  0 Sep29 ?        00:00:00 [events/0]
+root        24     2  0 Sep29 ?        00:00:00 [events/1]
+root        25     2  0 Sep29 ?        00:00:00 [events/2]
+root        26     2  0 Sep29 ?        00:00:00 [events/3]
+root        27     2  0 Sep29 ?        00:00:00 [events_long/0]
+root        28     2  0 Sep29 ?        00:00:00 [events_long/1]
+root        29     2  0 Sep29 ?        00:00:00 [events_long/2]
+root        30     2  0 Sep29 ?        00:00:00 [events_long/3]
+root        31     2  0 Sep29 ?        00:00:00 [events_power_ef]
+root        32     2  0 Sep29 ?        00:00:00 [events_power_ef]
+root        33     2  0 Sep29 ?        00:00:00 [events_power_ef]
+root        34     2  0 Sep29 ?        00:00:00 [events_power_ef]
+root        35     2  0 Sep29 ?        00:00:00 [cgroup]
+root        36     2  0 Sep29 ?        00:00:00 [khelper]
+root        37     2  0 Sep29 ?        00:00:00 [netns]
+root        38     2  0 Sep29 ?        00:00:00 [async/mgr]
+root        39     2  0 Sep29 ?        00:00:00 [pm]
+root        40     2  0 Sep29 ?        00:00:03 [sync_supers]
+root        41     2  0 Sep29 ?        00:00:02 [bdi-default]
+root        42     2  0 Sep29 ?        00:00:00 [kintegrityd/0]
+root        43     2  0 Sep29 ?        00:00:00 [kintegrityd/1]
+root        44     2  0 Sep29 ?        00:00:00 [kintegrityd/2]
+root        45     2  0 Sep29 ?        00:00:00 [kintegrityd/3]
+root        46     2  0 Sep29 ?        00:00:21 [kblockd/0]
+root        47     2  0 Sep29 ?        00:00:01 [kblockd/1]
+root        48     2  0 Sep29 ?        00:00:13 [kblockd/2]
+root        49     2  0 Sep29 ?        00:00:00 [kblockd/3]
+root        50     2  0 Sep29 ?        00:00:00 [kacpid]
+root        51     2  0 Sep29 ?        00:00:00 [kacpi_notify]
+root        52     2  0 Sep29 ?        00:00:00 [kacpi_hotplug]
+root        53     2  0 Sep29 ?        00:00:00 [ata_aux]
+root        54     2  0 Sep29 ?        00:00:00 [ata_sff/0]
+root        55     2  0 Sep29 ?        00:00:00 [ata_sff/1]
+root        56     2  0 Sep29 ?        00:00:00 [ata_sff/2]
+root        57     2  0 Sep29 ?        00:00:00 [ata_sff/3]
+root        58     2  0 Sep29 ?        00:00:00 [ksuspend_usbd]
+root        59     2  0 Sep29 ?        00:00:00 [khubd]
+root        60     2  0 Sep29 ?        00:00:00 [kseriod]
+root        61     2  0 Sep29 ?        00:00:00 [md/0]
+root        62     2  0 Sep29 ?        00:00:00 [md/1]
+root        63     2  0 Sep29 ?        00:00:00 [md/2]
+root        64     2  0 Sep29 ?        00:00:00 [md/3]
+root        65     2  0 Sep29 ?        00:00:00 [md_misc/0]
+root        66     2  0 Sep29 ?        00:00:00 [md_misc/1]
+root        67     2  0 Sep29 ?        00:00:00 [md_misc/2]
+root        68     2  0 Sep29 ?        00:00:00 [md_misc/3]
+root        69     2  0 Sep29 ?        00:00:00 [linkwatch]
+root        99     2  0 Sep29 ?        00:00:00 [khungtaskd]
+root       100     2  0 Sep29 ?        00:00:02 [kswapd0]
+root       101     2  0 Sep29 ?        00:00:02 [kswapd1]
+root       102     2  0 Sep29 ?        00:00:00 [ksmd]
+root       103     2  0 Sep29 ?        00:00:12 [khugepaged]
+root       104     2  0 Sep29 ?        00:00:00 [aio/0]
+root       105     2  0 Sep29 ?        00:00:00 [aio/1]
+root       106     2  0 Sep29 ?        00:00:00 [aio/2]
+root       107     2  0 Sep29 ?        00:00:00 [aio/3]
+root       108     2  0 Sep29 ?        00:00:00 [crypto/0]
+root       109     2  0 Sep29 ?        00:00:00 [crypto/1]
+root       110     2  0 Sep29 ?        00:00:00 [crypto/2]
+root       111     2  0 Sep29 ?        00:00:00 [crypto/3]
+root       118     2  0 Sep29 ?        00:00:00 [kthrotld/0]
+root       119     2  0 Sep29 ?        00:00:00 [kthrotld/1]
+root       120     2  0 Sep29 ?        00:00:00 [kthrotld/2]
+root       121     2  0 Sep29 ?        00:00:00 [kthrotld/3]
+root       130     2  0 Sep29 ?        00:00:00 [kpsmoused]
+root       131     2  0 Sep29 ?        00:00:00 [usbhid_resumer]
+root       132     2  0 Sep29 ?        00:00:00 [deferwq]
+root       164     2  0 Sep29 ?        00:00:00 [kdmremove]
+root       165     2  0 Sep29 ?        00:00:00 [kstriped]
+root       316     2  0 Sep29 ?        00:00:00 [scsi_eh_0]
+root       317     2  0 Sep29 ?        00:00:00 [scsi_eh_1]
+root       364     2  0 Sep29 ?        00:00:06 [mpt_poll_0]
+root       365     2  0 Sep29 ?        00:00:00 [mpt/0]
+root       369     2  0 Sep29 ?        00:00:00 [scsi_eh_2]
+root       396     2  0 Sep29 ?        00:00:00 [scsi_eh_3]
+root       397     2  0 Sep29 ?        00:09:03 [usb-storage]
+root       399     2  0 Sep29 ?        00:00:00 [scsi_eh_4]
+root       400     2  0 Sep29 ?        00:03:19 [usb-storage]
+root       477     2  0 Sep29 ?        00:00:30 [md3_raid1]
+root       485     2  0 Sep29 ?        00:03:59 [md1_raid1]
+root       548     2  0 Sep29 ?        00:00:23 [jbd2/md1-8]
+root       549     2  0 Sep29 ?        00:00:00 [ext4-dio-unwrit]
+root       658     1  0 Sep29 ?        00:01:44 /sbin/udevd -d
+root       813     2  0 Sep29 ?        00:00:06 [edac-poller]
+root      1110     2  0 12:28 ?        00:00:00 [flush-9:1]
+root      1218     2  0 Sep29 ?        00:00:01 [md0_raid1]
+root      1256     2  0 Sep29 ?        00:05:11 [md2_raid1]
+root      1332     2  0 Sep29 ?        00:00:00 [jbd2/md0-8]
+root      1333     2  0 Sep29 ?        00:00:00 [ext4-dio-unwrit]
+root      1334     2  0 Sep29 ?        00:00:04 [jbd2/md2-8]
+root      1335     2  0 Sep29 ?        00:00:00 [ext4-dio-unwrit]
+root      1388     2  0 Sep29 ?        00:00:06 [kauditd]
+root      1725     1  0 Sep29 ?        00:00:26 auditd
+root      1727  1725  0 Sep29 ?        00:00:33 /sbin/audispd
+root      1729  1727  0 Sep29 ?        00:00:05 /usr/sbin/sedispatch
+root      1751     1  0 Sep29 ?        00:00:00 /sbin/portreserve
+root      1761     1  0 Sep29 ?        00:00:50 /sbin/rsyslogd -i /var/run/syslogd.pid
+root      1795     1  0 Sep29 ?        00:02:12 irqbalance --pid=/var/run/irqbalance.pid
+root      1835     1  0 Sep29 ?        00:00:21 mdadm --monitor --scan -f --pid-file=/var/run/mdadm/mdadm.pid
+root      1849     1  0 Sep29 ?        00:01:45 lldpad -d
+root      1863     2  0 Sep29 ?        00:00:00 [target_completi]
+root      1864     2  0 Sep29 ?        00:00:00 [target_completi]
+root      1865     2  0 Sep29 ?        00:00:00 [target_completi]
+root      1866     2  0 Sep29 ?        00:00:00 [target_completi]
+root      1867     2  0 Sep29 ?        00:00:00 [tmr/0]
+root      1868     2  0 Sep29 ?        00:00:00 [tmr/1]
+root      1869     2  0 Sep29 ?        00:00:00 [tmr/2]
+root      1870     2  0 Sep29 ?        00:00:00 [tmr/3]
+root      1912     1  0 Sep29 ?        00:00:18 NetworkManager --pid-file=/var/run/NetworkManager/NetworkManager.pid
+root      1916     1  0 Sep29 ?        00:00:00 /usr/sbin/modem-manager
+avahi     1928  1927  0 Sep29 ?        00:00:00 avahi-daemon: chroot helper
+root      1972  1912  0 Sep29 ?        00:00:02 /sbin/dhclient -d -4 -sf /usr/libexec/nm-dhcp-client.action -pf /var/run/dhclient-eth0.pid -lf /var/lib/dhclient/dhclient-5fb06bd0-0bb0-7ffb-45f1-d6edd65f3e03-eth0.lease -cf /var/run/nm-dhclient-eth0.conf eth0
+root      1984     1  0 Sep29 ?        00:00:00 /usr/sbin/wpa_supplicant -c /etc/wpa_supplicant/wpa_supplicant.conf -B -u -f /var/log/wpa_supplicant.log -P /var/run/wpa_supplicant.pid
+root      2054     1  0 Sep29 ?        00:06:18 cupsd -C /etc/cups/cupsd.conf
+root      2091     1  0 Sep29 ?        00:00:00 /usr/sbin/acpid
+root      2105  2104  0 Sep29 ?        00:00:00 hald-runner
+root      2153  2105  0 Sep29 ?        00:00:00 hald-addon-input: Listening on /dev/input/event3 /dev/input/event0 /dev/input/event1
+root      2164  2105  0 Sep29 ?        00:01:46 hald-addon-storage: polling /dev/sdc (every 2 sec)
+root      2166  2105  0 Sep29 ?        00:03:28 hald-addon-storage: polling /dev/sr0 (every 2 sec)
+root      2181     1  0 Sep29 ?        00:09:51 /usr/sbin/sssd -f -D
+root      2182  2181  0 Sep29 ?        00:01:13 /usr/libexec/sssd/sssd_be --domain cims.nyu.edu --uid 0 --gid 0 --debug-to-files
+root      2183  2181  0 Sep29 ?        00:00:51 /usr/libexec/sssd/sssd_nss --uid 0 --gid 0 --debug-to-files
+root      2184  2181  0 Sep29 ?        00:00:31 /usr/libexec/sssd/sssd_pam --uid 0 --gid 0 --debug-to-files
+root      2185  2181  0 Sep29 ?        00:00:22 /usr/libexec/sssd/sssd_sudo --uid 0 --gid 0 --debug-to-files
+root      2186  2181  0 Sep29 ?        00:00:18 /usr/libexec/sssd/sssd_autofs --uid 0 --gid 0 --debug-to-files
+root      2187  2181  0 Sep29 ?        00:00:16 /usr/libexec/sssd/sssd_ssh --uid 0 --gid 0 --debug-to-files
+root      2214     1  0 Sep29 ?        00:00:00 pcscd
+root      2232     1  0 Sep29 ?        00:03:29 automount --pid-file /var/run/autofs.pid
+root      2284     1  0 Sep29 ?        00:00:00 /usr/sbin/mcelog --daemon
+root      2290     2  0 Sep29 ?        00:00:02 [rpciod/0]
+root      2291     2  0 Sep29 ?        00:00:30 [rpciod/1]
+root      2292     2  0 Sep29 ?        00:00:00 [rpciod/2]
+root      2293     2  0 Sep29 ?        00:00:03 [rpciod/3]
+root      2314     2  0 Sep29 ?        00:00:00 [kslowd000]
+root      2315     2  0 Sep29 ?        00:00:00 [kslowd001]
+root      2316     1  0 Sep29 ?        00:01:22 /usr/sbin/sshd
+root      2322     2  0 Sep29 ?        00:00:04 [nfsiod]
+root      2329     1  0 Sep29 ?        00:00:00 xinetd -stayalive -pidfile /var/run/xinetd.pid
+root      2398     1  0 Sep29 ?        00:00:44 sendmail: accepting connections
+root      2434     1  0 Sep29 ?        00:00:09 abrt-dump-oops -d /var/spool/abrt -rwx /var/log/messages
+root      2452     1  0 Sep29 ?        00:00:00 /usr/sbin/gpm -m /dev/input/mice -t exps2
+root      2465     1  0 Sep29 ?        00:01:39 /bin/bash /usr/sbin/ksmtuned
+root      2478     1  0 Sep29 ?        00:01:22 crond
+root      2983     1  0 Sep29 ?        00:00:02 /usr/sbin/atd
+root      2996     1  0 Sep29 ?        00:00:00 /usr/bin/python /usr/share/virt-who/virtwho.py
+root      3014     1  0 Sep29 ?        00:01:12 libvirtd --daemon
+root      3040     1  0 Sep29 ?        00:00:01 /usr/bin/rhsmcertd
+root      3155     1  0 Sep29 ?        00:00:04 /usr/sbin/gdm-binary -nodaemon
+root      3163     1  0 Sep29 tty2     00:00:00 /sbin/mingetty /dev/tty2
+root      3165     1  0 Sep29 tty3     00:00:00 /sbin/mingetty /dev/tty3
+root      3166     1  0 Sep29 ttyS0    00:00:00 /sbin/agetty /dev/ttyS0 9600 vt100-nav
+root      3168     1  0 Sep29 tty4     00:00:00 /sbin/mingetty /dev/tty4
+root      3170     1  0 Sep29 tty5     00:00:00 /sbin/mingetty /dev/tty5
+root      3173     1  0 Sep29 tty6     00:00:00 /sbin/mingetty /dev/tty6
+root      3179   658  0 Sep29 ?        00:01:15 /sbin/udevd -d
+root      3180   658  0 Sep29 ?        00:00:00 /sbin/udevd -d
+root      4831  2316  0 20:30 ?        00:00:00 sshd: wx433 [priv]
+root     11880  2316  0 21:58 ?        00:00:00 sshd: wx433 [priv]
+root     13754  2478  0 22:30 ?        00:00:00 CROND
+root     13757 13754  0 22:30 ?        00:00:00 /bin/sh -c /local/sbin/check-services >/dev/null
+root     13761 13757  0 22:30 ?        00:00:00 /bin/bash /local/sbin/check-services
+root     13764 13761  0 22:30 ?        00:00:00 sleep 703
+root     13941  2316  0 22:35 ?        00:00:00 sshd: hz1411 [priv]
+root     14041     2  0 22:36 ?        00:00:00 [flush-0:67]
+root     14123  2465  0 22:39 ?        00:00:00 sleep 60
+root     14173  2316  0 22:40 ?        00:00:00 sshd: root@notty 
+root     14176 14173  0 22:40 ?        00:00:00 bash -c (cd /tmp/rscript.27982; ./pinghosts 172.22.80.)
+root     14194 14176  0 22:40 ?        00:00:00 bash -c (cd /tmp/rscript.27982; ./pinghosts 172.22.80.)
+root     14195 14194  1 22:40 ?        00:00:00 /usr/local/bin/perl -w ./pinghosts 172.22.80.
+root     14534 14195  0 22:40 ?        00:00:00 /usr/local/bin/perl -w ./pinghosts 172.22.80.
+root     14537 14195  0 22:40 ?        00:00:00 /usr/local/bin/perl -w ./pinghosts 172.22.80.
+root     14540 14195  0 22:40 ?        00:00:00 /usr/local/bin/perl -w ./pinghosts 172.22.80.
+root     14544 14195  0 22:40 ?        00:00:00 /usr/local/bin/perl -w ./pinghosts 172.22.80.
+root     14556 14195  0 22:40 ?        00:00:00 /usr/local/bin/perl -w ./pinghosts 172.22.80.
+root     14560 14195  0 22:40 ?        00:00:00 /usr/local/bin/perl -w ./pinghosts 172.22.80.
+root     14584 14195  0 22:40 ?        00:00:00 /usr/local/bin/perl -w ./pinghosts 172.22.80.
+root     14589 14195  0 22:40 ?        00:00:00 /usr/local/bin/perl -w ./pinghosts 172.22.80.
+root     14595 14195  0 22:40 ?        00:00:00 /usr/local/bin/perl -w ./pinghosts 172.22.80.
+root     14609 14195  0 22:40 ?        00:00:00 /usr/local/bin/perl -w ./pinghosts 172.22.80.
+root     14610 14195  0 22:40 ?        00:00:00 /usr/local/bin/perl -w ./pinghosts 172.22.80.
+root     14611 14195  0 22:40 ?        00:00:00 /usr/local/bin/perl -w ./pinghosts 172.22.80.
+wx433    14613 11883  0 22:40 pts/1    00:00:00 grep root
+root     21339     2  0 Sep30 ?        00:00:00 [lockd]
+
+List of all the programs running by my user using "ps -ef | grep wx433":
+
+root      4831  2316  0 20:30 ?        00:00:00 sshd: wx433 [priv]
+wx433     4833  4831  0 20:30 ?        00:00:00 sshd: wx433@pts/0
+wx433     4834  4833  0 20:30 pts/0    00:00:00 -bash
+root     11880  2316  0 21:58 ?        00:00:00 sshd: wx433 [priv]
+wx433    11882 11880  0 21:58 ?        00:00:00 sshd: wx433@pts/1
+wx433    11883 11882  0 21:58 pts/1    00:00:00 -bash
+wx433    14816  4834  0 22:40 pts/0    00:00:00 nano C_wx433_tasks.txt
+wx433    14993 11883  0 22:41 pts/1    00:00:00 ps -ef
+wx433    14994 11883  0 22:41 pts/1    00:00:00 grep wx433
+
+
+iii.    List all the users that are currently connected to the server
+
+Using "Users"
+
+lg2755 wx433
+
+iv.	What is the hostname of the server you are using?
+
+Using "hostname"
+
+mauler.cims.nyu.edu
