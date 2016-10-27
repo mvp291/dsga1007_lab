@@ -1,0 +1,36 @@
+i.i.
+
+Information concerning our team directory brogrammers and the files contained
+within (from the local repository perspective) is as follows:
+
+drwxr-xr-x  6 jonathanatoy  staff   204B Oct 27 11:42 .
+drwxr-xr-x  4 jonathanatoy  staff   136B Oct 20 17:44 ..
+-rw-r--r--@ 1 jonathanatoy  staff   6.0K Oct 20 17:45 .DS_Store
+-rw-r--r--  1 jonathanatoy  staff     0B Oct 27 11:42 A_jt2276_tasks.txt
+-rw-r--r--  1 jonathanatoy  staff   4.0K Oct 27 11:39 B_ba1303_tasks.txt
+-rw-r--r--  1 jonathanatoy  staff   1.6K Oct 20 18:35 C_jt2276_tasks.txt
+
+i.ii.
+
+The commit history is as follows:
+
+f32256c7330cf20005011104181b2fa90a0618f4 complete merge
+2eb78b300cdd065b781133dc7398c5b455885390 Part B
+431f91249df52923ec1523d7922d9d11cb78f803 removing dummy file
+688ef6ba2fc0dfa08ddb6ea8347e507caf9cce83 Adding C_jt2276_tasks.txt
+4a2d80d2f943890b95fd4b02e3287e263b592169 rm folder attempt 2
+74b543116c624e7d2badbf80b42f13c3cd4c5fba commit file
+b875ef9a7994ebb96d5a33f73f4edf70017e42aa Create file
+7ea58b205b94e58dfea19cbb11c3a2a56ecfef53 Initial commit
+
+i.iii.
+
+The latest commit id is:
+
+f32256c7330cf20005011104181b2fa90a0618f4	HEAD
+
+The commands required to access this information are:
+
+ls -lah
+git log --pretty=oneline
+git ls-remote https://github.com/jontoy/dsga1007_lab.git HEAD

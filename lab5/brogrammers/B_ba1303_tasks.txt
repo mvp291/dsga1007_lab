@@ -1,0 +1,178 @@
+g.i
+There are 17 files
+
+g.ii
+There are 10 .csv files and 6 .py files
+
+g.iii
+    Lines   Words
+    1018    1018 mailing_results_0.csv
+    1018    1018 mailing_results_1.csv
+    1018    1018 mailing_results_2.csv
+    1017    1017 mailing_results_3.csv
+    1019    1023 mailing_results_4.csv
+    1017    1017 mailing_results_5.csv
+    1017    1017 mailing_results_6.csv
+    1017    1017 mailing_results_7.csv
+    1017    1017 mailing_results_8.csv
+    1017    1017 mailing_results_9.csv
+
+g.v
+Files/Line Numbers where "receive()" is defined:
+- brieAuction.py (Line 52) 
+- client.py (Line 6)
+- player.py (Line 279)
+
+Files/Line Numbers where "receive()" is mentioned at all:
+- brieAuction.py (Line 52)
+- brieAuction.py (Line 80)  
+- brieAuction.py (Line 82) 
+- brieAuction.py (Line 198)   
+- client.py (Line 6) 
+- client.py (Line 20)    
+- client.py (Line 22)    
+- client.py (Line 25)        
+- player.py (Line 279) 
+- player.py (Line 308)    
+- player.py (Line 310)    
+- player.py (Line 318)      
+
+g.vi.1
+==> mailing_results_0.csv <==
+"2.0,0.0,1.0,0,0.49,0.51"
+"6.0,0.0,0.0,1,0.65,0.35"
+"20.0,0.0,1.0,0,0.5,0.5"
+
+==> mailing_results_1.csv <==
+"3.0,0.0,0.0,1,0.64,0.36"
+"10.0,1.0,1.0,1,0.46,0.54"
+"14.0,0.0,0.0,1,0.5,0.5"
+
+==> mailing_results_2.csv <==
+"1.0,1.0,1.0,1,0.42,0.58"
+"4.0,0.0,0.0,1,0.67,0.33"
+"26.0,0.0,1.0,0,0.48,0.52"
+
+==> mailing_results_3.csv <==
+"13.0,0.0,0.0,1,0.65,0.35"
+"25.0,0.0,1.0,0,0.46,0.54"
+"44.0,0.0,0.0,1,0.65,0.35"
+
+==> mailing_results_4.csv <==
+"0.0,0.0,0.0,1,0.65,0.35"
+"12.0,0.0,0.0,1,0.61,0.39"
+"24.0,0.0,1.0,0,0.49,0.51"
+
+==> mailing_results_5.csv <==
+"9.0,0.0,0.0,1,0.51,0.49"
+"18.0,0.0,0.0,1,0.53,0.47"
+"22.0,0.0,1.0,0,0.46,0.54"
+
+==> mailing_results_6.csv <==
+"16.0,0.0,0.0,1,0.63,0.37"
+"21.0,0.0,0.0,1,0.5,0.5"
+"34.0,0.0,0.0,1,0.63,0.37"
+
+==> mailing_results_7.csv <==
+"5.0,0.0,1.0,0,0.47,0.53"
+"7.0,0.0,1.0,0,0.36,0.64"
+"8.0,0.0,1.0,0,0.45,0.55"
+
+==> mailing_results_8.csv <==
+"31.0,0.0,0.0,1,0.63,0.37"
+"36.0,0.0,0.0,1,0.5,0.5"
+"40.0,0.0,0.0,1,0.5,0.5"
+
+==> mailing_results_9.csv <==
+"17.0,0.0,1.0,0,0.49,0.51"
+"27.0,0.0,1.0,0,0.42,0.58"
+"32.0,1.0,1.0,1,0.33,0.67"
+
+g.vi.2
+==> mailing_results_0.csv <==
+"10130.0,1.0,1.0,1,0.38,0.62"
+"10141.0,1.0,1.0,1,0.49,0.51"
+
+==> mailing_results_1.csv <==
+"10151.0,1.0,1.0,1,0.37,0.63"
+"10159.0,1.0,0.0,0,0.52,0.48"
+
+==> mailing_results_2.csv <==
+"10161.0,1.0,1.0,1,0.42,0.58"
+"10164.0,1.0,1.0,1,0.33,0.67"
+
+==> mailing_results_3.csv <==
+"10150.0,1.0,1.0,1,0.36,0.64"
+"10158.0,1.0,1.0,1,0.36,0.64"
+
+==> mailing_results_4.csv <==
+"10153.0,1.0,1.0,1,0.37,0.63"
+"10156.0,1.0,1.0,1,0.5,0.5"
+
+==> mailing_results_5.csv <==
+"10170.0,1.0,0.0,0,0.53,0.47"
+"10172.0,1.0,0.0,0,0.53,0.47"
+
+==> mailing_results_6.csv <==
+"10162.0,1.0,0.0,0,0.63,0.37"
+"10166.0,1.0,1.0,1,0.36,0.64"
+
+==> mailing_results_7.csv <==
+"10154.0,1.0,1.0,1,0.36,0.64"
+"10157.0,1.0,0.0,0,0.51,0.49"
+
+==> mailing_results_8.csv <==
+"10163.0,1.0,1.0,1,0.5,0.5"
+"10167.0,1.0,0.0,0,0.64,0.36"
+
+==> mailing_results_9.csv <==
+"10165.0,1.0,1.0,1,0.49,0.51"
+"10171.0,1.0,1.0,1,0.42,0.58"
+
+g.vii
+mailing_results_4.csv includes the words "FoO" and "BaR"
+
+---------------------
+#install wget function
+brew install wget
+
+#download URL
+wget http://cims.nyu.edu/~ts2387/dsga1007/lab1.zip
+
+#unzip folder
+unzip lab1.zip
+
+#create new file
+touch B_ba1303_tasks.txt
+
+#count number of files (first, remove lab1.zip)
+rm lab1.zip
+ls | wc -l
+
+#count number of .csv files and .py files
+ls *csv | wc -l
+ls *py | wc -l
+
+#count number of words and lines in each csv file
+wc -w -l *csv
+
+#display contents of text file
+cat client.py     
+
+#identify .py files that define the function "receive", and note the line location.  
+grep -n "def receive()" *py 
+
+#identify all cases in .py files in which "recieve()" is mentioned
+grep -n "receive()" *py 
+
+# print first 3 lines of each csv file
+head -3 *csv
+
+# print last two lines of each csv file
+tail -2 *csv
+
+#Check if .csv files contain the words foo or bar
+grep -i 'foo\|bar' *csv
+
+#Move B_ba1303_tasks.txt back to "brogrammers" folder
+mv /Users/Brenton/dsga1007_lab/lab5/B_ba1303_tasks.txt /Users/Brenton/dsga1007_lab/lab5/brogrammers
